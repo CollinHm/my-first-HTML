@@ -20,4 +20,30 @@ body{
 
 #introPicture{
     float: left;
+    height: 300px;
+}
+
+.reset{
+    clear: both;
+}
+
+#hobbyContainer{
+    width: 360px;
+    float: left;
+}
+
+#psvFoto{
+    float: left;
+}
+
+
+.socialThumb{
+    float: left;
+
+}
+
+#mainContainer{
+    width: 1000px;
+    margin: 0px auto;
+
 }
