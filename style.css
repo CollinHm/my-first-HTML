@@ -1,17 +1,45 @@
 body{
-    background-color: #009c92;
+    background-color: #ffffff;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#introText{
-    color: #000000;
+p {
+    margin: 0px;
 }
+
+td {
+    border: 1px solid #000000;
+}
+
+/*Classes*/
 
 .highlight{
     color: #00ff08;
     font-weight: bold;
 }
+
+
+.reset{
+    clear: both;
+}
+
+
+.socialThumb{
+    float: left;
+   margin: 25px 7px 0px 7px;
+
+}
+
+*/
+
+
+ /*ID's*/
+#introText{
+    color: #000000;
+}
+
+
 
 #introContainer{
     width: 470px;
@@ -25,9 +53,6 @@ body{
     height: 300px;
 }
 
-.reset{
-    clear: both;
-}
 
 #hobbyContainer{
     width: 360px;
@@ -49,22 +74,13 @@ body{
     margin: 15px 0px 0px -70px;
 }
 
-
-.socialThumb{
-    float: left;
-   margin: 25px 7px 0px 7px;
-
-}
-
 #mainContainer{
     width: 1000px;
     margin: 0px auto;
     padding: 10px 0px 0px 0px;
-
-
-    
-
+    background-color: #FFFFFF;
 }
+
 
 #navigation{
     height: 30px;
@@ -77,6 +93,7 @@ body{
   background-color: #6bf276;
   color: #000000;
   text-decoration: none;
+  border-radius: 5px;
 }
 
 
@@ -84,4 +101,21 @@ body{
     background-color: #05991e;
     color: #000000;
     text-decoration: underline;
+    border-radius: 5px;
   }
+
+
+  #paddingTest {
+    width: 260px;
+    height: 260px;
+    background-color: #9fea9f;
+    margin: 60px 0px 30px 0px;
+    /*padding adds to with and height*/
+    padding: 20px;
+    border-radius: 4px;
+
+}
+ 
+
+ 
+  
