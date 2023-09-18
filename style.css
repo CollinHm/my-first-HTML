@@ -1,11 +1,11 @@
 body{
-    background-color: #7000b1;
+    background-color: #009c92;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 #introText{
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .highlight{
@@ -59,6 +59,29 @@ body{
 #mainContainer{
     width: 1000px;
     margin: 0px auto;
+    padding: 10px 0px 0px 0px;
+
+
     
 
 }
+
+#navigation{
+    height: 30px;
+    margin: 0px 0px 10px 0px;
+}
+
+
+#navigation a{
+  padding: 10px;
+  background-color: #6bf276;
+  color: #000000;
+  text-decoration: none;
+}
+
+
+#navigation a:hover{
+    background-color: #05991e;
+    color: #000000;
+    text-decoration: underline;
+  }
